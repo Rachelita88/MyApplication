@@ -12,33 +12,35 @@
         android:orientation="vertical">
 
         <TextView
+            android:id="@+id/text_1"
             android:layout_width="wrap_content"
-            android:layout_height="0dp"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_gravity="center_horizontal"
             android:text="Hello I am a Panda!"
             android:padding="8dp"
             android:layout_marginTop="8dp"
-            android:textSize="30sp"
+            android:textSize="20sp"
             android:textColor="#33691E"
             android:textStyle="bold"
             />
 
         <ImageView
-            android:id="@+id/image_panda"
+            android:id="@+id/image_fondo"
             android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:layout_weight="5"
+            android:layout_height="350dp"
+            android:layout_weight="2"
             android:src="@drawable/panda"
         />
 
         <TextView
+            android:id="@+id/text_2"
             android:layout_width="wrap_content"
-            android:layout_height="0dp"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Love me!"
             android:padding="8dp"
-            android:textSize="30sp"
+            android:textSize="16sp"
             android:textColor="#33691E"
             android:textStyle="bold"
             android:layout_gravity="center_horizontal"
